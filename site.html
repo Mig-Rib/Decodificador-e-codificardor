@@ -11,15 +11,24 @@
         <img class="logo" src="./assets/Logo.png">
     </header>
     <main class="apresentacao">  
-        <input type="text">
-        <section class="apresentacao__bloco">
-            <img class="apresentacao__bloco__imagem" src="./assets/High quality products 1 1.png">
-            <p class="apresentacao__bloco__texto">Nenhum texto encontrado</p>
-        </section>
+        <textarea class="apresentacao__escrita" placeholder="Digite aqui"></textarea>
+        <div class="quadrado">
+            <section class="apresentacao__bloco">
+                <img id="fotoNoTexto" src="./assets/High quality products 1 1.png">
+                <p id="textoMudanca"class="apresentacao__bloco__texto">Nenhum texto encontrado</p>
+                <p id="textoSumido">Digite um texto que você deseja criptografar ou descriptografar</p>
+            </section>
+        </div>
     </main>
-    
-    
+    <section class='aviso'>
+        <img src="./assets/Group.png">
+        <p>Apenas letras minúsculas e sem acento.</p>
+    </section>
+    <footer class="botoes">
+        <button class="botoes__botao1" onclick="criptografar()">Codificar</button>
+        <button class="botoes__botao2" onclick="descriptografar()">Decodificar</button>
+    </footer>
 
-    
+    <script src="script.js" defer></script>
 </body>
 </html>
